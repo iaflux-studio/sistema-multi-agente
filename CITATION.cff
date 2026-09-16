@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Se citi questa architettura, usa questi metadati."
+title: "Architettura multi-agente iaFlux Studio: 181 agent specializzati, 19 domini, 22 gate con potere di blocco"
+authors:
+  - family-names: Santoro
+    given-names: Antonio
+    affiliation: "iaFlux Studio (NEW MULTISERVICE S.R.L.S.), Caserta, Italia"
+repository-code: "https://github.com/iaflux-studio/sistema-multi-agente"
+url: "https://www.iaflux.it/sistema-multi-agente/"
+license: CC-BY-4.0
+date-released: 2026-08-26
+version: "2026.09.16"
+keywords:
+  - multi-agent-systems
+  - ai-agents
+  - llm-agents
+  - orchestration
