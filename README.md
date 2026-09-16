@@ -63,8 +63,12 @@ gemelle, che segnalano uno stallo di più agenti insieme.
 
 - **Nessun registro di audit cronologico.** Ci sono i verdetti conservati, con il motivo
   scritto e il responsabile della correzione. Non un log datato riga per riga.
-- **Il tasso di respingimento dei gate non è misurato.** Va registrato d'ora in avanti: non
-  è ricostruibile a posteriori.
+- **Il tasso di respingimento dei gate è misurato su un solo cantiere completo, non in modo
+  continuo.** Il 14 giugno 2026, su sedici testi arrivati ai controlli, quindici sono stati
+  respinti al primo giro dal controllo della lingua, undici dal controllo dei claim, quattro da
+  quello legale; numeri ricavati dai registri, in
+  [La macchina che boccia il proprio lavoro](https://www.iaflux.it/la-macchina-che-boccia-il-proprio-lavoro/).
+  La registrazione continua resta da fare.
 
 Sono le due risposte oneste, e sono qui perché una pagina che rivendica controlli senza
 dichiarare i propri buchi non è verificabile — è pubblicità.
@@ -76,6 +80,13 @@ contano restano a una persona. C'è automazione di processo — code, temporizza
 dagli errori — e c'è la specializzazione del giudizio. Sono due cose diverse, con rischi
 diversi, e confonderle è il modo tipico di costruire un'affermazione insostenibile.
 
+## Portfolio e caso studio
+
+Il sistema descritto in questo repository è quello che opera in produzione dietro [iaFlux Studio](https://www.iaflux.it).
+
+- **[Portfolio](https://www.iaflux.it/portfolio/)** — nove sistemi, otto in produzione e uno collaudato, ciascuno con il cliente per nome e i numeri misurati.
+- **[La macchina che boccia il proprio lavoro](https://www.iaflux.it/la-macchina-che-boccia-il-proprio-lavoro/)** — 69 agenti, 35 minuti, 16 testi ai controlli: 15 respinti al primo giro dal controllo della lingua. Nessun umano ha approvato un testo.
+
 ---
 
 **iaFlux Studio** — NEW MULTISERVICE S.R.L.S., Caserta
@@ -83,3 +94,4 @@ Sito: <https://www.iaflux.it> · Contatto: studio@iaflux.it
 
 Documentazione rilasciata con licenza [CC BY 4.0](LICENSE). I numeri di questo documento sono
 stati ricontati il 26 agosto 2026; ogni aggiornamento riporta la data del nuovo conteggio.
+Aggiornamento del 16 settembre 2026: sezione portfolio e caso studio, misura del tasso di respingimento su un cantiere; i conteggi dell'architettura restano quelli del 26 agosto.
