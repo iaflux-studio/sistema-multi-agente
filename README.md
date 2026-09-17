@@ -1,6 +1,8 @@
 # Architettura multi-agente — iaFlux Studio
 
 **181 agent specializzati, 19 domini, 22 gate con potere di blocco.**
+
+Criterio di conteggio dei gate, scritto il 17 settembre 2026. Un agent conta come gate quando il suo contratto gli dà il potere di fermare una consegna: il nome termina in "-gate" o "-verifier", oppure è uno dei ruoli di controllo elencati per nome nella classificazione della plancia (as-editor, as-compliance, iaflux-art-director, iaflux-quality, qa-verifier, redteam-adversarial, ed-fact-checker, ed-legal-ftc-us, ed-medical-reviewer, str-compliance, cuc-haccp-sicurezza, cuc-allergeni-compliance, cuc-assaggio-qualita, cin-genetica, cin-benessere-etica). Con questo criterio i gate sono 22, e sono marcati uno per uno nella colonna "Gate" del roster: il numero si riconta dal roster, non si crede sulla parola. Fino a oggi il 22 era pubblicato senza il criterio e senza l’elenco. Un secondo criterio, più stretto, conta solo i contratti la cui descrizione dichiara "GATE" o "potere di blocco": con quello i contratti sono 14, e i due elenchi non sono uno dentro l’altro. Tredici nomi coincidono; nove ruoli di controllo bloccano per contratto senza dichiararlo nella prima riga (as-compliance, ed-fact-checker, ed-legal-ftc-us, ed-medical-reviewer, iaflux-art-director, iaflux-quality, qa-verifier, redteam-adversarial, str-compliance); un contratto, as-finance, scrive "GATE" riferendosi ai passi della propria pipeline e non a un potere di blocco su una consegna, e per questo non è fra i 22. È un difetto dei contratti, e sta nella lista delle cose da sistemare. I verdetti emessi dai gate sono nel [registro pubblico dei verdetti](REGISTRO-VERDETTI.md).
 Questo è il metodo con cui iaFlux Studio produce il proprio lavoro. Non è un prodotto in
 vendita, non è un framework rilasciato: è documentazione di come lavoriamo, pubblicata
 perché a chi valuta un fornitore serve poterla leggere.
@@ -63,12 +65,7 @@ gemelle, che segnalano uno stallo di più agenti insieme.
 
 - **Nessun registro di audit cronologico.** Ci sono i verdetti conservati, con il motivo
   scritto e il responsabile della correzione. Non un log datato riga per riga.
-- **Il tasso di respingimento dei gate è misurato su un solo cantiere completo, non in modo
-  continuo.** Il 14 giugno 2026, su sedici testi arrivati ai controlli, quindici sono stati
-  respinti al primo giro dal controllo della lingua, undici dal controllo dei claim, quattro dal
-  controllo di conformità; numeri ricavati dai registri, in
-  [La macchina che boccia il proprio lavoro](https://www.iaflux.it/la-macchina-che-boccia-il-proprio-lavoro/).
-  La registrazione continua resta da fare.
+- **Il tasso di respingimento dei gate non è misurato in modo continuo.** È registrato cantiere per cantiere nel [registro dei verdetti](REGISTRO-VERDETTI.md), che oggi copre due cantieri: quello del 14 giugno 2026, ricostruito dai registri di lavorazione, e quello del 17 settembre 2026. Per i cantieri precedenti non è ricostruibile.
 
 Sono le due risposte oneste, e sono qui perché una pagina che rivendica controlli senza
 dichiarare i propri buchi non è verificabile — è pubblicità.
@@ -80,13 +77,6 @@ contano restano a una persona. C'è automazione di processo — code, temporizza
 dagli errori — e c'è la specializzazione del giudizio. Sono due cose diverse, con rischi
 diversi, e confonderle è il modo tipico di costruire un'affermazione insostenibile.
 
-## Portfolio e caso studio
-
-Il sistema descritto in questo repository è quello che opera in produzione dietro [iaFlux Studio](https://www.iaflux.it).
-
-- **[Portfolio](https://www.iaflux.it/portfolio/)** — nove sistemi, otto in produzione e uno collaudato, ciascuno con il cliente o il prodotto nominato e i numeri misurati.
-- **[La macchina che boccia il proprio lavoro](https://www.iaflux.it/la-macchina-che-boccia-il-proprio-lavoro/)** — 69 agenti, 35 minuti, 16 testi ai controlli: 15 respinti al primo giro dal controllo della lingua. Nessun umano ha approvato un testo; tre agenti sono stati fermati a mano.
-
 ---
 
 **iaFlux Studio** — NEW MULTISERVICE S.R.L.S., Caserta
@@ -94,4 +84,3 @@ Sito: <https://www.iaflux.it> · Contatto: studio@iaflux.it
 
 Documentazione rilasciata con licenza [CC BY 4.0](LICENSE). I numeri di questo documento sono
 stati ricontati il 26 agosto 2026; ogni aggiornamento riporta la data del nuovo conteggio.
-Aggiornamento del 16 settembre 2026: sezione portfolio e caso studio, misura del tasso di respingimento su un cantiere; i conteggi dell'architettura restano quelli del 26 agosto.
