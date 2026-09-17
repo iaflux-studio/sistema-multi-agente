@@ -276,7 +276,7 @@ Il limite di questo modello è dichiarato al §6: il perimetro è contrattuale, 
 
 **Non esiste, e va detto:**
 - Un **registro di audit strutturato e interrogabile a livello di singolo attore**: quale gate è stato eseguito, quando, su quale artefatto, con quale verdetto e quale motivazione. Oggi la ricostruzione richiede la lettura delle trascrizioni. È possibile, ma non è un audit trail. È la lacuna più seria dell'impianto di governance ed è la prima cosa da costruire.
-- Un **registro unico dei gate**. Sette contratti portano la parola "gate" nel nome, ma altri esercitano potere di blocco senza esserlo nel nome. Non esiste oggi un elenco autorevole di "tutti i gate bloccanti del sistema" — il che significa che il sistema non può dimostrare formalmente di aver eseguito tutti quelli dovuti.
+- Un **registro unico dei gate**. Sette contratti portano la parola "gate" nel nome, altri esercitano potere di blocco senza averla. Dal 17 settembre 2026 l'elenco esiste: il criterio di conteggio è nel README e i 22 gate sono marcati uno per uno nella colonna "Gate" del ROSTER. Resta il difetto a monte: nove di quei contratti non dichiarano il potere di blocco nella propria descrizione, quindi il sistema non può ancora dimostrarlo leggendo solo il contratto.
 - Versionamento uniforme: non tutti i progetti sono su un sistema di controllo di versione.
 
 ### Dati personali
