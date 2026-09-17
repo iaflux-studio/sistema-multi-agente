@@ -83,4 +83,4 @@ diversi, e confonderle è il modo tipico di costruire un'affermazione insostenib
 Sito: <https://www.iaflux.it> · Contatto: studio@iaflux.it
 
 Documentazione rilasciata con licenza [CC BY 4.0](LICENSE). I numeri di questo documento sono
-stati ricontati il 26 agosto 2026; ogni aggiornamento riporta la data del nuovo conteggio.
+stati contati il 24 agosto 2026 e pubblicati il 26; ogni aggiornamento riporta la data del nuovo conteggio.
