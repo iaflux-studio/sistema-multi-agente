@@ -42,9 +42,8 @@ veri sono nomi di progetti e di clienti. Struttura, ruoli e numeri sono quelli r
 più lunga fra due gesti supera 5 minuti nel 19,2% dei casi, 12 minuti nel 6,8%, 20 minuti nel
 4,9%, 30 minuti nel 3,9%. A 12 minuti un agente sano su quindici veniva dichiarato morto.
 
-**Su 114 agenti che sembravano caduti, 97 erano stati interrotti da una persona.** Solo 13
-stavano davvero lavorando. Guardare l'orologio invece del motivo faceva gridare al lupo
-cinque volte su sei.
+**Nella maggior parte dei casi, un agente che sembrava caduto era stato solo interrotto.**
+Guardare l'orologio invece del motivo faceva gridare al lupo proprio in quei casi.
 
 > **Prima di dichiarare un guasto, leggi come è finita la cosa — non da quanto è ferma.**
 
