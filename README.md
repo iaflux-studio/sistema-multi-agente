@@ -11,6 +11,8 @@ perché a chi valuta un fornitore serve poterla leggere.
   dove decide l'umano, gestione degli errori, limiti dichiarati
 - **[ROSTER.md](ROSTER.md)** — i 181 contratti, per dominio, generati dai file reali
 
+**Un sistema multi-agente in produzione presso un cliente.** Con lo stesso principio, agenti specializzati e un controllo prima della consegna, abbiamo costruito un sistema multi-agente per uno studio legale: un assistente AI che coordina sei agenti e confronta ogni citazione con la fonte. Il sistema è in produzione presso lo studio legale dal 12 ottobre 2026, giorno in cui è stata installata la versione 1.2; il 15 ottobre 2026 lo studio legale ci ha riferito che il sistema è in uso. Il codice del sistema è installato sul Mac dello studio legale e non è in questo repository. I numeri, con la data, sono nei [casi studio](https://www.iaflux.it/casi-studio/) su iaflux.it.
+
 ---
 
 ## Perché non basta un modello solo
